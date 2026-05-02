@@ -1,0 +1,20 @@
+# Root-level gitignore (코드 본체는 leave-manager/ 폴더 참조)
+.DS_Store
+.idea/
+.vscode/
+.claude/
+*.log
+
+# Next.js 산출물 (방어적 차단)
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+**/coverage/
+**/*.tsbuildinfo
+
+# Env files
+**/.env
+**/.env.local
+**/.env.*.local
+**/.vercel
